@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --font: Jost;
+  --roboto:"Roboto", sans-serif;
+  --red: #d42123;
+  --green: #226a4c;
+  --dark: #212529;
+  --availabe: #cbf1e1;
+  --unavailable: #e78688;
+  --gray: #abafb3;
+  --jost: 'Jost';
+}
+
+body {
+  font-family: 'Jost', monospace;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+/* header */
+.right_header > div{
+  margin-left: 21px;
+}
+.header_top{
+  margin:13px 0px;
+
+}
+.header{
+  border-bottom: 1px solid #E3E3E3;
+}
+/* .email_icon{
+  padding-left: 70px;
+} */
+.left_content{
+  padding-right:70px ;
+}
+.email_icon ,.contact_icon > svg{
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+}
+.contact_num{
+  font-size: 14px;
+}
+.header{
+  color: var(--dark);
+}
+.header a{
+  color: var(--dark);
+}
+.contact_num > a{
+  padding-left: 9px;
+}
+
+/* menuheader */
+.menu_header{
+  padding: 18px 0px;
+}
+.menu_header_main{
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form */
+.doc_loginform .form_input
+{
+  border: 1px solid #cdcdcd;
+  height: 45px;
+  border-radius: 4px;
+  margin-bottom: 22px;
+  width:100%;
+  padding-left: 20px;
+  font-size: 13px;
+  /* text-align: ; */
+}
+.doc_loginform .modal-dialog {
+  max-width: 400px !important;
+  margin: auto;
+  text-align: center;
+  /* padding: 56px 45px !important; */
+}
+.doc_loginform .modal-body{
+  padding: 56px 45px !important;
+}
+.form_logo{
+  margin-bottom: 40px !important;
+}
+.button_primary{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: var(--red);
+  padding: 10px 0px;
+  width: 100% !important;
+  display: block;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-family: var(--roboto) !important;
+}
+.checkbox_font > div{
+  font-size: 11px;
+  margin-bottom: 61px;
+  font-weight: 600;
+  font-family: var(--roboto);
+}
+.doc_loginform .form-check-input:checked{
+ background-color: var(--red);
+}
